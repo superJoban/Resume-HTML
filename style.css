@@ -1,0 +1,224 @@
+body {
+    background: url("./night-background.jpg") top center no-repeat;
+    background-size: 100% 1000px; 
+    margin: 0;
+    
+  }
+  .container {
+    text-align: center;
+    color: #c7e8eb;
+    position: relative;
+  }
+  
+  .text-container {
+    margin-top: 5%;
+
+    padding: 20px;
+    position: relative;
+  }
+  h2 {
+    font-size: 100px;
+    font-family: 'Rancho', serif;
+    color:dimgray;
+  }
+  h3 {
+    font-size: 70px;
+    font-family: 'Tangerine', serif;
+    color: #c7e8eb;
+  }
+ .images img{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    margin-left: 100px;
+    
+  }
+  p {
+    font-size: 20px;
+  }
+  .images {
+    height: 200px;
+    width: 1500px;
+    margin: -530px auto 0;
+
+  }
+  #java {
+    height: 100px;
+    width: 150px;
+  }
+  .gif-container {
+
+    float:right;
+    padding-right: 50px;
+
+
+  }
+  .gif {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    bottom: 350px;
+    right: 150px;
+    border-radius: 20%;
+  }
+  .bott-text {
+    clear: both;
+    position: relative;
+    bottom: 190px;
+    
+  }
+  span {
+    font-size: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family:'Times New Roman', Times, serif;
+    color:dimgray;
+    
+  }
+
+  .main {
+    width: 100%;
+    text-align: center; 
+    display: block;
+    background-color: #c7e8eb;
+  }
+  
+  #myPhoto {
+    padding-top: 40px;
+    display: block; /* Make the image a block-level element */
+    margin: 0 auto; /* Center block-level element horizontally */
+    border-radius:20%;
+    height: 240px;
+  }
+  .Summary > p {
+    font-size: 20px;
+    padding-left: 35%;
+    padding-right: 35%;
+  }
+  .Skills ul {
+    list-style-position: inside; /* Place the list item bullets inside the list */
+}
+
+.Technical {
+    text-align: left;
+    display: inline-block;
+    width: 40%;
+    padding-left: 350px;
+}
+
+.Personal {
+    padding-left: 100px;
+    text-align: left;
+    display: inline-block;
+    width: 30%;
+}
+
+.Technical > ul, .Personal > ul {
+    font-size: 20px;
+}
+h4 {
+    font-size: 30px;
+}
+
+.OptEm {
+    text-align: left;
+    padding-left: 550px;
+}
+h5 {
+    font-size: 22px;
+}
+
+.Experience ul {
+    list-style-position: inside;
+    text-align: left;
+    font-size: 20px;
+    width: 900px;
+}
+
+#tech-used {
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+
+.Projects>ul {
+    padding-left: 550px;
+    font-weight: bold;
+}
+.Projects > ul > ul {
+    font-weight: lighter;
+}
+
+.haikyuu img {
+    float: left;
+    height: 150px;
+    padding-left: 400px;
+    padding-bottom: 300px;
+}
+
+.haikyuu p {
+    padding-right: 500px;
+    padding-bottom: 200px;
+}
+
+.weightlift img {
+    float: right;
+    height: 200px;
+    padding-right: 300px;
+}
+hr {
+    clear: both;
+}
+.footer-container {
+    padding: 10px; /* Adjust the padding to control the height */
+    background: url("./night-background.jpg") bottom center no-repeat;
+    background-size: 100% 100%; /* Adjust the size accordingly */
+  }
+  .footer-container h2 {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    z-index: 1;
+    color: #c7e8eb;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+/* Media Queries */
+@media (max-width: 768px) {
+    /* Adjust styles for tablets and smaller screens */
+    .images img {
+        margin-left: 5%;
+    }
+
+    .gif-container {
+        float: none;
+        padding-right: 5%;
+    }
+
+    .gif {
+        right: 5%;
+    }
+
+    .Projects>ul {
+        padding-left: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjust styles for mobile devices */
+    .images img {
+        margin-left: 2%;
+    }
+
+    .gif-container {
+        padding-right: 2%;
+    }
+
+    .gif {
+        right: 2%;
+    }
+
+    .Projects>ul {
+        padding-left: 2%;
+    }
+}
+
