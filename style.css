@@ -38,7 +38,7 @@ body {
   }
   .images {
     height: 200px;
-    width: 1500px;
+    width: 100%;
     margin: -530px auto 0;
 
   }
@@ -182,43 +182,159 @@ hr {
     text-align: center;
   }
   
-/* Media Queries */
-@media (max-width: 768px) {
-    /* Adjust styles for tablets and smaller screens */
-    .images img {
-        margin-left: 5%;
-    }
 
-    .gif-container {
-        float: none;
-        padding-right: 5%;
-    }
 
-    .gif {
-        right: 5%;
-    }
-
-    .Projects>ul {
-        padding-left: 5%;
-    }
-}
-
-@media (max-width: 480px) {
+@media (max-width: 1000px) {
     /* Adjust styles for mobile devices */
-    .images img {
-        margin-left: 2%;
+      h2 {
+        font-size: 60px;
+        font-family: 'Rancho', serif;
+        color:dimgray;
+      }
+      h3 {
+        font-size: 40px;
+        font-family: 'Tangerine', serif;
+        color: #c7e8eb;
+      }
+     .images img{
+        height: 0px;
+      }
+      p {
+        font-size: 18px;
+      }
+      #java {
+        height: 0px;
+      }
+      .gif-container {
+    
+        float:right;
+        padding-right: 50px;
+    
+      }
+      .gif {
+        height: 0px;
+        width: 100px;
+        position: relative;
+        bottom: 250px;
+        right: 150px;
+        border-radius: 20%;
+      }
+      .bott-text {
+        clear: both;
+        position: relative;
+        bottom: 10px;
+        
+      }
+      span {
+        font-size: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+        font-family:'Times New Roman', Times, serif;
+        color:dimgray;
+        
+      }
+    
+      .main {
+        width: 100%;
+        text-align: center; 
+        display: block;
+        background-color: #c7e8eb;
+      }
+      
+      .Summary > p {
+        font-size: 20px;
+        padding-left: 15%;
+        padding-right: 15%;
+      }
+      .Skills ul {
+        list-style-position: inside; /* Place the list item bullets inside the list */
     }
-
-    .gif-container {
-        padding-right: 2%;
+    
+    .Technical {
+        text-align: left;
+        display: inline-block;
+        width: 100%;
+        padding-left: 15px;
     }
-
-    .gif {
-        right: 2%;
+    
+    .Personal {
+        padding-left: 15px;
+        text-align: left;
+        display: inline-block;
+        width: 100%;
     }
-
+    
+    .Technical > ul, .Personal > ul {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    
+    .OptEm {
+        text-align: left;
+        padding-left: 15px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    
+    .Experience ul {
+        list-style-position: inside;
+        text-align: left;
+        font-size: 20px;
+        width: 90%;
+    }
+    
+    #tech-used {
+        padding-left: 0;
+        font-size: 15px;
+        color: black;
+        font-weight: bold;
+    }
+    
     .Projects>ul {
-        padding-left: 2%;
+        padding-left: 15px;
+        font-weight: bold;
     }
+    .Projects > ul > ul {
+        font-weight: lighter;
+    }
+    
+    .haikyuu img {
+        float: left;
+        height: 120px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .haikyuu p {
+        padding-right: 0px;
+        padding-bottom: 15px;
+    }
+    
+    .weightlift img {
+        float: right;
+        height: 150px;
+        padding-right: 15px;
+    }
+    .weightlift p {
+        padding-top: 20px;
+    }
+    hr {
+        clear: both;
+    }
+    .footer-container {
+        padding: 10px; /* Adjust the padding to control the height */
+        background: url("./night-background.jpg") bottom center no-repeat;
+        background-size: 100% 100%; /* Adjust the size accordingly */
+      }
+      .footer-container h2 {
+        font-size: 15px; /* Adjust the font size as needed */
+        z-index: 1;
+        color: #c7e8eb;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      }
 }
 
